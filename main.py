@@ -11,5 +11,6 @@ utils.navegar('https://demoqa.com/text-box')
 
 # 2ª ação: Preencher os campos
 preenche.name('Teste Teste')
+preenche.email('teste.teste@teste.com')
 
 
