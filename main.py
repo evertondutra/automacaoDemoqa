@@ -1,5 +1,9 @@
-from browser import Browser
+from utils import Utils
 
 
 # Estanciando a classe
-browser = Browser()
+utils = Utils()
+
+# 1ª ação: navegar até o site para automação
+utils.navegar('https://demoqa.com/text-box')
+
