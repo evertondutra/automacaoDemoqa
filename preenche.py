@@ -8,7 +8,7 @@ class PreencheElementos(object):
     IdPermanentAddress = 'permanentAddress'
     botomSubmit = 'submit'
 
-
+# Classe com funções identificando elemento na página e executando ações
 class Preenche(Browser):
     def name(self, name):
         self.driver.find_element_by_id(PreencheElementos.idName).send_keys(name)
