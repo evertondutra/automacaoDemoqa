@@ -19,8 +19,8 @@ class Preenche(Browser):
     def address(self, address):
         self.driver.find_element_by_id(PreencheElementos.idAddress).send_keys(address)
 
-    def perAddress(self, perAddress):
-        self.driver.find_element_by_id(PreencheElementos.IdPermanentAddress).send_keys(perAddress)
+    def per_address(self, per_address):
+        self.driver.find_element_by_id(PreencheElementos.IdPermanentAddress).send_keys(per_address)
 
     # clicar no botão submit
     def cl_btn(self):

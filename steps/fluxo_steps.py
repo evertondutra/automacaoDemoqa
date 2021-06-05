@@ -22,7 +22,7 @@ def step_impl(context):
     preenche.name('Teste Teste')
     preenche.email('teste.teste@teste.com')
     preenche.address('Cidade Teste')
-    preenche.perAddress('Cidade TesteTeste')
+    preenche.per_address('Cidade TesteTeste')
 
 
 @when(u'clico no botão submit')
